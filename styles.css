@@ -7,13 +7,23 @@ body {
 #sabores{
     background-color: gold;
 }
-#maintitle{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 3em;
+h1 {
+    position: relative; /* Permite posicionar el pseudoelemento relativo a este elemento */
+    display: inline-block; /* Hace que la línea esté limitada al ancho del título */
     color: white;
-    text-align: center;
-    border-bottom: 0.1em solid gold;
-    position:relative;
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+h1::after{
+    content: ''; /* Necesario para que aparezca el pseudoelemento */
+    position: absolute; /* Lo posiciona en relación con el h1 */
+    left: 0; /* Comienza en el borde izquierdo del h1 */
+    bottom: -3px; /* Ajusta la distancia de la línea debajo del texto */
+    width: 100%; /* Toma el ancho completo del h1 */
+    height: 1px; /* Grosor de la línea */
+    background-color: gold; /* Color de la línea (dorado) */
 }
 .cabecera{
     flex-direction: column;
