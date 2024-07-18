@@ -1,6 +1,20 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: black;
     color: #333;
     margin: 20px;
     }
+#sabores{
+    background-color: gold;
+}
+#maintitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    border-bottom: 0.1em solid gold;
+    position:relative;
+}
+.cabecera{
+    flex-direction: column;
+}
