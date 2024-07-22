@@ -61,6 +61,6 @@ body {
     width: 25px;/*Tamaño*/
 }
 .menu label{
-    cursor:pointer;
+    cursor:pointer;/*Para que el cursor cambie al dedo cuando pase por las opciones*/
     display: none;
 }
