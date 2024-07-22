@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*se importaron letras de google font*/
 /* font-family: 'Bebas neue', cursiva;*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+    margin: 0;/*reset*/
+    padding: 0;/*reset*/
+    box-sizing: border-box;/*reset*/
+    text-decoration: none;/*reset*/
+    list-style: none;/*reset*/
 }
 body {
-    font-family: 'poppins', sans-serif;
-    background-color: #1f1f1f;
+    font-family: 'poppins', sans-serif;/*se usaron la letra poppin importada*/
+    background-color: #1f1f1f;/*color del fondo*/
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.container {/*contiene una imagen y el menu*/
+    max-width: 1200px; /*Máximo de ancho de la página*/
+    margin: 0 auto; /*Sin margen*/
 }
-.header {
+.header {/*Hay una imagen*/
     background-image: url(images/bg.jpg);
     background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;/*Para no repetir la imagen*/
+    background-size: cover;/*Cubre todo el header*/
     min-height: 70vh;
     display: flex;
     align-items: center;
 }
 .menu{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: absolute;/*el contenedor se posicionará en el borde más cercano*/
+    top: 0;/*Posición vertical con respecto a su contenedor*/
+    left: 0;/*Posición con respecto al borde izquierdo*/
+    right: 0;/*Posición con respecto al borde derecho*/
     display: flex;
     align-items: center;/*centra los elementos*/
     justify-content: space-between;/* guarda espacio entre los elementos*/
@@ -41,26 +42,77 @@ body {
     font-weight: 800; /* ancho de la fuente*/
     text-transform: uppercase; /*Transformar a mayúsculas*/
 }
-.menu .navbar ul li {
+.menu .navbar ul li {/*llama al contenedor menu y al navbar*/
     position: relative; /*Para que los enlaces se acomoden a la izquierda*/
-    float: left;
+    float: left;/*alinear a la izquierda*/
 }
 .menu .navbar ul li a{
     font-size: 18px; /*Tamaño de letra*/
-    padding: 20px;
-    color: #ffffff;
+    padding: 20px;/*espacio entre el borde del contenedor menu y el contenido*/
+    color: #ffffff;/*color de los ítems blanco*/
     display: block; /*Para que se coloque bien el padding*/
 }
-.menu .navbar ul li a:hover{
+.menu .navbar ul li a:hover {
     color: #cf2d3a;
 }
-#menu{ /*Para llamar el id*/
+#menu { /*Para llamar el id*/
     display: none;
 }
-.menu-icono{
+.menu-icono {
     width: 25px;/*Tamaño*/
 }
-.menu label{
+.menu label {
     cursor:pointer;/*Para que el cursor cambie al dedo cuando pase por las opciones*/
-    display: none;
+    display: none;/*oculta el cursor reemplazado*/
+}
+.header-txt {
+    text-align: center;/*centrar texto*/
+    margin-bottom: 45px;/*Margen inferior*/
+}
+.header-txt h1, span, h3 {/*Se llaman todos los elementos de interés para no hacer modificaciones uno por uno*/
+    font-size: 110px;/*Tamaño de letra*/
+    letter-spacing: 5px;/*espaciado*/
+    text-transform: uppercase;/*Mayúsculas*/
+    font-family: 'Bebas neue', cursiva;/*letra importada*/
+    color: #cf2d3a;/*color rojo*/
+    margin-bottom: 5px;/*Margen inferior*/
+    margin-top: 120px;
+}
+.header-txt span {
+    font-size: 25px;
+}
+.header-txt p {
+    color: #AFAFAF;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+}
+.btn-1:hover {
+    background-color: #b4272e;
+}
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.dir h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.dir p{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
