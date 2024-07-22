@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*se importaron letras de google font*/
 /* font-family: 'Bebas neue', cursiva;*/
-*{
+* {
     margin: 0;/*reset*/
     padding: 0;/*reset*/
     box-sizing: border-box;/*reset*/
@@ -26,7 +26,7 @@ body {
     display: flex;
     align-items: center;
 }
-.menu{
+.menu {
     position: absolute;/*el contenedor se posicionará en el borde más cercano*/
     top: 0;/*Posición vertical con respecto a su contenedor*/
     left: 0;/*Posición con respecto al borde izquierdo*/
@@ -36,7 +36,7 @@ body {
     justify-content: space-between;/* guarda espacio entre los elementos*/
     z-index: 1000;/*El menor se posiciona delante de cualquier elemento*/
 }
-.logo{
+.logo {
     font-size: 24px; /* Tamaño de letra*/
     color: #cf2d3a; /*Color de letra*/
     font-weight: 800; /* ancho de la fuente*/
@@ -46,7 +46,7 @@ body {
     position: relative; /*Para que los enlaces se acomoden a la izquierda*/
     float: left;/*alinear a la izquierda*/
 }
-.menu .navbar ul li a{
+.menu .navbar ul li a {
     font-size: 18px; /*Tamaño de letra*/
     padding: 20px;/*espacio entre el borde del contenedor menu y el contenido*/
     color: #ffffff;/*color de los ítems blanco*/
@@ -86,7 +86,7 @@ body {
     padding: 0 250px;
     margin: 25px 0;
 }
-.btn-1{
+.btn-1 {
     display: inline-block;
     padding: 11px 25px;
     background-color: #d82e37;
@@ -105,14 +105,46 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin-top: 20px;
 }
-.dir h3{
+.dir h3 {
     font-size: 18px;
     margin-top: 10px;
 }
-.dir p{
+.dir p {
     font-size: 22px;
     color: #ffffff;
     text-transform: uppercase;
     margin-top: 10px;
+}
+.welcome {
+    display: flex;
+}
+.welcome-1 {
+    background-image: url(images/a1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas neue', cursiva;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #AFAFAF;
+    margin: 25px 0;
+}
+.b1 {
+    color: #cf2d3a;
 }
