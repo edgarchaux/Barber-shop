@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*se importaron letras de google font*/
 /* font-family: 'Bebas neue', cursiva;*/
-* {
+* {/*reset*/
     margin: 0;/*reset*/
     padding: 0;/*reset*/
     box-sizing: border-box;/*reset*/
     text-decoration: none;/*reset*/
     list-style: none;/*reset*/
 }
-body {
+body {/*curpo de la página*/
     font-family: 'poppins', sans-serif;/*se usaron la letra poppin importada*/
     background-color: #1f1f1f;/*color del fondo*/
 }
@@ -18,13 +18,13 @@ body {
     margin: 0 auto; /*Sin margen*/
 }
 .header {/*Hay una imagen*/
-    background-image: url(images/bg.jpg);
-    background-position: center top;
+    background-image: url(images/bg.jpg);/*llama a la imagen bg de la carpeta images*/
+    background-position: center top;/*Específica la posición inicial de una imagen en el fondo*/
     background-repeat: no-repeat;/*Para no repetir la imagen*/
     background-size: cover;/*Cubre todo el header*/
-    min-height: 70vh;
-    display: flex;
-    align-items: center;
+    min-height: 70vh;/*Altura mínima de la imagen es del 70%*/
+    display: flex;/*el contenedor y sus elementos se podran organizar de forma flexible*/
+    align-items: center;/*centra verticalmente la imagen*/
 }
 .menu {
     position: absolute;/*el contenedor se posicionará en el borde más cercano*/
@@ -46,26 +46,26 @@ body {
     position: relative; /*Para que los enlaces se acomoden a la izquierda*/
     float: left;/*alinear a la izquierda*/
 }
-.menu .navbar ul li a {
+.menu .navbar ul li a {/*contiene la barra de navehación una lista y un enlace*/
     font-size: 18px; /*Tamaño de letra*/
     padding: 20px;/*espacio entre el borde del contenedor menu y el contenido*/
     color: #ffffff;/*color de los ítems blanco*/
     display: block; /*Para que se coloque bien el padding*/
 }
-.menu .navbar ul li a:hover {
-    color: #cf2d3a;
+.menu .navbar ul li a:hover {/*para cambiar el puntero cuando pasa sobre el menu*/
+    color: #cf2d3a;/*cambia el texto a color rojo*/
 }
-#menu { /*Para llamar el id*/
-    display: none;
+#menu { /*Para llamar el input*/
+    display: none;/*para ocultar el input*/
 }
-.menu-icono {
+.menu-icono {/*llama a auna imagen*/
     width: 25px;/*Tamaño*/
 }
-.menu label {
+.menu label {/*llama a .menu*/
     cursor:pointer;/*Para que el cursor cambie al dedo cuando pase por las opciones*/
     display: none;/*oculta el cursor reemplazado*/
 }
-.header-txt {
+.header-txt {/*contiene un h1, un span, un enlace y un párrafo*/
     text-align: center;/*centrar texto*/
     margin-bottom: 45px;/*Margen inferior*/
 }
@@ -76,15 +76,15 @@ body {
     font-family: 'Bebas neue', cursiva;/*letra importada*/
     color: #cf2d3a;/*color rojo*/
     margin-bottom: 5px;/*Margen inferior*/
-    margin-top: 120px;
+    margin-top: 120px;/*margen superior*/
 }
-.header-txt span {
-    font-size: 25px;
+.header-txt span {/*Llama al span del header-txt*/
+    font-size: 25px;/*Tamaño de la fuente*/
 }
-.header-txt p {
-    color: #AFAFAF;
-    padding: 0 250px;
-    margin: 25px 0;
+.header-txt p {/*Llama al párrafo del header-txt*/
+    color: #AFAFAF;/*color gris para el párrafo*/
+    padding: 0 250px;/*espacio superior e inferior de 0 y entre izquierda y derecha de 250px*/
+    margin: 25px 0;/*margen superior de 25px e inferior de 0*/
 }
 .btn-1 {
     display: inline-block;
@@ -117,34 +117,34 @@ body {
     text-transform: uppercase;
     margin-top: 10px;
 }
-.welcome {
-    display: flex;
+.welcome { /*tiene 2 divs, welcome-1 y welcome-2*/
+    display: flex;/*hace que un contenedor y sus elementos se puedan organizar de forma flexible*/
 }
-.welcome-1 {
-    background-image: url(images/a1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
+.welcome-1 { /*Contenedor vacío para colocar una imagen en su fondo*/
+    background-image: url(images/a1.jpg);/*imagen de fondo*/
+    background-position: center center;/*posiciona la imagen en el centro del contenedor vacío*/
+    background-repeat: no-repeat;/*Para que no se repita la imagen*/
+    background-size: cover;/*pone una imagen en el fondo de un contenedor, manteniendo la proporcionalidad de la imagen*/
+    width: 50%;/*Establece el ancho del contenedor .welcome-1 con relación a .welcome*/
 }
-.welcome-2 {
-    width: 50%;
-    padding: 150px 250px 150px 100px;
-    background-color: #191919;
+.welcome-2 {/*contiene dos párrafos, un h2 y un enlace*/
+    width: 50%;/*ocupa el 50% del ancho de .welcome*/
+    padding: 150px 250px 150px 100px;/*Establece el espacio en blanco de las margenes entre el contenedor y sus elementos*/
+    background-color: #191919;/*color negro de fondo*/
 }
-h2 {
-    font-size: 90px;
-    line-height: 100px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Bebas neue', cursiva;
-    margin-bottom: 20px;
+h2 {/*Llama a todos los h2*/
+    font-size: 90px;/*tamaño de letra*/
+    line-height: 100px;/*Indica la altura de cada línea de texto*/
+    color: #ffffff;/*color blanco para todos los h2*/
+    text-transform: uppercase;/*mayúsculas*/
+    font-family: 'Bebas neue', cursiva;/*fuente de letra*/
+    margin-bottom: 20px;/*margen inferior*/
 }
-p {
-    font-size: 16px;
-    color: #AFAFAF;
-    margin: 25px 0;
+p {/*llama a todos los párrafos*/
+    font-size: 16px;/*tamaño de la letra*/
+    color: #AFAFAF;/*color gris para todos los párrafos*/
+    margin: 25px 0;/*Margen superior e inferior*/
 }
-.b1 {
-    color: #cf2d3a;
+.b1 {/*Primer párrafo del contenedor .welcome*/
+    color: #cf2d3a;/*color rojo*/
 }
