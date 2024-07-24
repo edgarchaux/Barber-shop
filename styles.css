@@ -165,28 +165,28 @@ hr {/*línea*/
     padding: 50px 150px;/*espacio de arriba y abajo en 50px y de izquierda a derecha de 150px*/
 }
 .services-group {/*Tiene 3 contenedores services-1*/
-    display: flex;/**/
-    justify-content: space-between;/**/
-    margin: 45px 0;/**/
+    display: flex;/*Permite las funciones justify-content*/
+    justify-content: space-between;/*Espaciado entre los contenedores services-1*/
+    margin: 45px 0;/*Margen de 45px superior y 0 inferior*/
 }
-.services-1 {/**/
-    background-color: #070707;/**/
-    padding: 35px 25px;/**/
-    margin: 0 10px;/**/
-    border-radius: 15px;/**/
+.services-1 {/*cada servicio, tiene una imagen, un título, un párrafo descriptivo y un vínculo*/
+    background-color: #070707;/*Color de fondo de cada contenedor*/
+    padding: 35px 25px;/*espaciado de arriba y abajo de 35px y 25px de izquierda y derecha*/
+    margin: 0 10px;/*Margen superior de 0, inferior de 10px*/
+    border-radius: 15px;/*Redondea el borde*/
 }
-.services-1 img {/**/
-    width: 100px;/**/
-    height: auto;/**/
-    margin-bottom: 10px;/**/ 
+.services-1 img {/*imagen del contenedor services-1*/
+    width: 100px;/*Ancho de la imagen*/
+    height: auto;/*Selecciona automáticamente la altura con respecto al ancho*/
+    margin-bottom: 10px;/*Margen inferior de 10px*/ 
 }
-.services-1 h3 {/**/
-    font-size: 25px;/**/
-    color: #ffffff;/**/
+.services-1 h3 {/*Título del contenedor services-1*/
+    font-size: 25px;/*Tamaño del título del contenedor services-1*/
+    color: #ffffff;/*Color del título del contenedor services-1*/
 }
-.services-1 a {/**/
-    color: #cf2d3a;/**/
-    font-size: 16px;/**/
+.services-1 a {/*Botón vínculo del contenedor services-1*/
+    color: #cf2d3a;/*Color del botón del contenedor services-1*/
+    font-size: 16px;/*Tamaño de la fuente del botón*/
 }
 .prices {/**/
     display: flex;/**/
