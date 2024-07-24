@@ -129,7 +129,7 @@ body { /*Cuerpo de la página, abajo del head*/
 }
 .welcome-2 {/*Div contenedor de dos párrafos, un h2 y un enlace*/
     width: 50%;/*ocupa el 50% del ancho de .welcome*/
-    padding: 150px 250px 150px 100px;/*establece el espacio en blanco de las margenes entre el contenedor y sus elementos*/
+    padding: 150px 200px 150px 150px;/*arriba 150px, derecha 200px, abajo 150px, izquierda 150px*/
     background-color: #191919;/*color negro de fondo*/
 }
 h2 {/*Llama a todos los h2 del documento*/
@@ -148,6 +148,10 @@ p {/*Llama a todos los párrafos del documento*/
 }
 .b1 {/*Primer párrafo del contenedor .welcome*/
     color: #cf2d3a;/*color rojo*/
+}
+.welcome-boton {
+    display: flex;
+    justify-content: center;
 }
 .services-container {/*Seccion main que tiene los div contenedores services-txt y services-group*/
     padding: 100px 0;/*espacio superior e inferior de 100px, de izquierda y derecha de 0*/
@@ -226,4 +230,73 @@ td {/*Cada valor de cada corte de la tabla precios*/
     background-repeat: no-repeat;/*para no repetir la imagen*/
     background-size: cover;/*para que la imagen ocupe todo el fondo*/
     width: 50%;/*el contenedor prices-2 ocupará el 50% del contenedor prices*/
+}
+.personal {
+    padding: 100px 0;
+    text-align: center;
+}
+.personal-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.personal-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.personal-1 {
+    text-align: center;
+}
+.personal-1 img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.personal-1 h3 {
+    font-size: 22px;
+}
+.personal-1 p {
+    padding: 0 50px;
+}
+.personal-1 a {
+    color: #cf2d3a;
+}
+.footer-bg {
+    background-image: url(images/bg-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.campo-1 {
+    margin-bottom: 15px;
+}
+.campo {
+    margin: 5px;
+    padding: 10px 15px;
+    width: 250px;
+    background-color: #0e0e0e;
+    border: 1px solid #cf2d3a;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+textarea {
+    width: 520px !important;
+}
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: #070707;
 }
