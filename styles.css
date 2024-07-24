@@ -2,223 +2,228 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*se importaron letras de google font*/
 /* font-family: 'Bebas neue', cursiva;*/
-* { /*reset*/
+* { /*Reset del documento*/
     margin: 0;/*reset*/
     padding: 0;/*reset*/
     box-sizing: border-box;/*reset*/
     text-decoration: none;/*reset*/
     list-style: none;/*reset*/
 }
-body { /*cuerpo de la página*/
+body { /*Cuerpo de la página, abajo del head*/
     font-family: 'poppins', sans-serif;/*se usaron la letra poppin importada*/
     background-color: #1f1f1f;/*color del fondo*/
 }
-.container { /*contiene una imagen y el menu*/
-    max-width: 1200px; /*Máximo de ancho de la página*/
-    margin: 0 auto; /*Sin margen*/
+.container { /*Div conteiner que tiene una imagen y el menu*/
+    max-width: 1200px; /*máximo de ancho de la página*/
+    margin: 0 auto; /*sin margen*/
 }
-.header {/*Hay una imagen*/
+.header {/*Sección header, está dentro del body, tiene los contenedores menu-conteiner y header-content container*/
     background-image: url(images/bg.jpg);/*llama a la imagen bg de la carpeta images*/
-    background-position: center top;/*Específica la posición inicial de una imagen en el fondo*/
-    background-repeat: no-repeat;/*Para no repetir la imagen*/
-    background-size: cover;/*Cubre todo el header*/
-    min-height: 70vh;/*Altura mínima de la imagen es del 70%*/
+    background-position: center top;/*específica la posición inicial de una imagen en el fondo*/
+    background-repeat: no-repeat;/*para no repetir la imagen*/
+    background-size: cover;/*cubre todo el header*/
+    min-height: 70vh;/*altura mínima de la imagen es del 70%*/
     display: flex;/*el contenedor y sus elementos se podran organizar de forma flexible*/
     align-items: center;/*centra verticalmente la imagen*/
 }
-.menu {/*input*/
+.menu {/*Primer div contenedor */
     position: absolute;/*el contenedor se posicionará en el borde más cercano*/
-    top: 0;/*Posición vertical con respecto a su contenedor*/
-    left: 0;/*Posición con respecto al borde izquierdo*/
-    right: 0;/*Posición con respecto al borde derecho*/
+    top: 0;/*posición vertical con respecto a su contenedor*/
+    left: 0;/*posición con respecto al borde izquierdo*/
+    right: 0;/*posición con respecto al borde derecho*/
     display: flex;
     align-items: center;/*centra los elementos*/
     justify-content: space-between;/* guarda espacio entre los elementos*/
-    z-index: 1000;/*El menor se posiciona delante de cualquier elemento*/
+    z-index: 1000;/*el menor se posiciona delante de cualquier elemento*/
 }
-.logo {/*logo de la barbería*/
-    font-size: 24px; /* Tamaño de letra*/
-    color: #cf2d3a; /*Color de letra*/
+.logo {/*Enlace del logo de la barbería*/
+    font-size: 24px; /* tamaño de letra*/
+    color: #cf2d3a; /*color de letra*/
     font-weight: 800; /* ancho de la fuente*/
-    text-transform: uppercase; /*Transformar a mayúsculas*/
+    text-transform: uppercase; /*transformar a mayúsculas*/
 }
-.menu .navbar ul li {/*llama al contenedor menu y al navbar*/
-    position: relative; /*Para que los enlaces se acomoden a la izquierda*/
+.menu .navbar ul li {/*Llama a los div contenedores menu y navbar, así como a la lista que contienen*/
+    position: relative; /*para que los enlaces se acomoden a la izquierda*/
     float: left;/*alinear a la izquierda*/
 }
-.menu .navbar ul li a {/*contiene la barra de navehación una lista y un enlace*/
-    font-size: 18px; /*Tamaño de letra*/
+.menu .navbar ul li a {/*Llama a los div contenedores menu y navbar, así como a la lista y el botón que contienen*/
+    font-size: 18px; /*tamaño de letra*/
     padding: 20px;/*espacio entre el borde del contenedor menu y el contenido*/
     color: #ffffff;/*color de los ítems blanco*/
-    display: block; /*Para que se coloque bien el padding*/
+    display: block; /*para que se coloque bien el padding*/
 }
-.menu .navbar ul li a:hover {/*para cambiar el puntero cuando pasa sobre el menu*/
+.menu .navbar ul li a:hover {/*Evento de pasar por encima del navbar y el menú*/
     color: #cf2d3a;/*cambia el texto a color rojo*/
 }
-#menu { /*Para llamar el input*/
+#menu { /*Input del div contenedor menu container*/
     display: none;/*para ocultar el input*/
 }
-.menu-icono {/*llama a auna imagen*/
-    width: 25px;/*Tamaño*/
+.menu-icono {/*Img del menú*/
+    width: 25px;/*ancho del ícono*/
 }
-.menu label {/*llama a .menu*/
-    cursor:pointer;/*Para que el cursor cambie al dedo cuando pase por las opciones*/
+.menu label {/*Llama al label del div contenedor menu*/
+    cursor:pointer;/*para que el cursor cambie al dedo cuando pase por las opciones*/
     display: none;/*oculta el cursor reemplazado*/
 }
-.header-txt {/*contiene un h1, un span, un enlace y un párrafo*/
+.header-txt {/*Div contenedor que contiene un h1, un span, un enlace y un párrafo*/
     text-align: center;/*centrar texto*/
-    margin-bottom: 45px;/*Margen inferior*/
+    margin-bottom: 45px;/*margen inferior*/
 }
-.header-txt h1, span, h3 {/*Se llaman todos los elementos de interés para no hacer modificaciones uno por uno*/
-    font-size: 110px;/*Tamaño de letra*/
+.header-txt h1, span, h3 {/*Se llaman todos los h1, span y h3 del div contenedor header-txt*/
+    font-size: 110px;/*tamaño de letra*/
     letter-spacing: 5px;/*espaciado*/
-    text-transform: uppercase;/*Mayúsculas*/
+    text-transform: uppercase;/*mayúsculas*/
     font-family: 'Bebas neue', cursiva;/*letra importada*/
     color: #cf2d3a;/*color rojo*/
-    margin-bottom: 5px;/*Margen inferior*/
+    margin-bottom: 5px;/*margen inferior*/
     margin-top: 120px;/*margen superior*/
 }
-.header-txt span {/*Llama al span del header-txt*/
-    font-size: 25px;/*Tamaño de la fuente*/
+.header-txt span {/*Llama al span del div contenedor header-txt*/
+    font-size: 25px;/*tamaño de la fuente*/
 }
-.header-txt p {/*Llama al párrafo del header-txt*/
+.header-txt p {/*Llama al párrafo del div contenedor header-txt*/
     color: #AFAFAF;/*color gris para el párrafo*/
     padding: 0 250px;/*espacio superior e inferior de 0 y entre izquierda y derecha de 250px*/
     margin: 25px 0;/*margen superior e inferior de 25px y derecho e izquierdo de 0px*/
 }
-.btn-1 {/*botones*/
-    display: inline-block;/*Permite que se acomode en una línea de texto*/
+.btn-1 {/*Botones del documento*/
+    display: inline-block;/*permite que se acomode en una línea de texto*/
     padding: 11px 25px;/*espacio superior e inferior de 11px y derecha e izquierda de 25px*/
     background-color: #d82e37;/*color del botón*/
     color: #ffffff;/*color de la letra del botón*/
-    text-transform: uppercase;/*Letra mayúscula*/
+    text-transform: uppercase;/*letra mayúscula*/
     letter-spacing: 2px;/*espaciado*/
     font-size: 20px;/*tamaño de letra*/
     font-family: 'Bebas Neue', cursive;/*fuente de letra*/
     margin: 25px 0;/*margen superior de 25px e inferior de 0px*/
     border: 0;/*elemento sin borde*/
 }
-.btn-1:hover {/*animación del elemento*/
+.btn-1:hover {/*Animación del evento cuando el puntero pasa por btn-1*/
     background-color: #b4272e;/*cambia de color cuando el puntero pasa por encima*/
 }
-.header-dir {/*tiene 3 contenedores dir*/
+.header-dir {/*Div contenedor que tiene 3 contenedores dir*/
     display: flex;/*permite las funciones justify-content y text-align*/
     justify-content: space-between;/*da espaciado entre los elementos*/
     text-align: center;/*centra verticalmente los elementos*/
     margin-top: 20px;/*margen superior de 20px*/
 }
-.dir h3 {/*título h3 del contenedor dir*/
+.dir h3 {/*Título h3 del div contenedor dir*/
     font-size: 18px;/*tamaño de letra de 18px*/
     margin-top: 10px;/*margen superior de 10px*/
 }
-.dir p {/*párrafo del contenedor dir*/
+.dir p {/*Párrafo del div contenedor dir*/
     font-size: 22px;/*tamaño de letra*/
     color: #ffffff;/*color de letra*/
     text-transform: uppercase;/*mayúscula*/
     margin-top: 10px;/*margen superior*/
 }
-.welcome { /*tiene 2 divs, welcome-1 y welcome-2*/
+.welcome { /*Sección que tiene 2 div contenedores, welcome-1 y welcome-2*/
     display: flex;/*hace que un contenedor y sus elementos se puedan organizar de forma flexible*/
 }
-.welcome-1 { /*Contenedor vacío para colocar una imagen en su fondo*/
+.welcome-1 { /*Div contenedor vacío para colocar una imagen en su fondo*/
     background-image: url(images/a1.jpg);/*imagen de fondo*/
     background-position: center center;/*posiciona la imagen en el centro del contenedor vacío*/
-    background-repeat: no-repeat;/*Para que no se repita la imagen*/
+    background-repeat: no-repeat;/*para que no se repita la imagen*/
     background-size: cover;/*pone una imagen en el fondo de un contenedor, manteniendo la proporcionalidad de la imagen*/
-    width: 50%;/*Establece el ancho del contenedor .welcome-1 con relación a .welcome*/
+    width: 50%;/*establece el ancho del contenedor .welcome-1 con relación a .welcome*/
 }
-.welcome-2 {/*contiene dos párrafos, un h2 y un enlace*/
+.welcome-2 {/*Div contenedor de dos párrafos, un h2 y un enlace*/
     width: 50%;/*ocupa el 50% del ancho de .welcome*/
-    padding: 150px 250px 150px 100px;/*Establece el espacio en blanco de las margenes entre el contenedor y sus elementos*/
+    padding: 150px 250px 150px 100px;/*establece el espacio en blanco de las margenes entre el contenedor y sus elementos*/
     background-color: #191919;/*color negro de fondo*/
 }
-h2 {/*Llama a todos los h2*/
+h2 {/*Llama a todos los h2 del documento*/
+    text-align: center;
     font-size: 90px;/*tamaño de letra*/
-    line-height: 100px;/*Indica la altura de cada línea de texto*/
+    line-height: 100px;/*indica la altura de cada línea de texto*/
     color: #ffffff;/*color blanco para todos los h2*/
     text-transform: uppercase;/*mayúsculas*/
     font-family: 'Bebas neue', cursiva;/*fuente de letra*/
     margin-bottom: 20px;/*margen inferior*/
 }
-p {/*llama a todos los párrafos*/
+p {/*Llama a todos los párrafos del documento*/
     font-size: 16px;/*tamaño de la letra*/
     color: #AFAFAF;/*color gris para todos los párrafos*/
-    margin: 25px 0;/*Margen superior e inferior*/
+    margin: 25px 0;/*margen superior e inferior*/
 }
 .b1 {/*Primer párrafo del contenedor .welcome*/
     color: #cf2d3a;/*color rojo*/
 }
-.services {/*tiene los contenedores services-txt y services-group*/
+.services-container {/*Seccion main que tiene los div contenedores services-txt y services-group*/
     padding: 100px 0;/*espacio superior e inferior de 100px, de izquierda y derecha de 0*/
     text-align: center;/*centrar texto*/
 }
-.services-txt {/*tiene un título, una línea y un párrafo*/
+.services-txt {/*Div contenedor que tiene un título, una línea y un párrafo*/
     display: flex;/*permite las funciones flex-direction y align-items*/
     flex-direction: column;/*alinea los ítems por columna*/
     align-items: center;/*alinea los ítems en el centro*/
 }
-hr {/*línea*/
+hr {/*Línea*/
     border: 3px solid #cf2d3a;/*aumenta el grosor de la línea, da color rojo*/
     width: 80px;/*establece el ancho de la línea en 80px*/
 }
-.services-txt p {/*párrafo del contenedor services-txt*/
+.services-txt p {/*Párrafo del div contenedor services-txt*/
     padding: 50px 150px;/*espacio de arriba y abajo en 50px y de izquierda a derecha de 150px*/
 }
-.services-group {/*Tiene 3 contenedores services-1*/
-    display: flex;/*Permite las funciones justify-content*/
-    justify-content: space-between;/*Espaciado entre los contenedores services-1*/
-    margin: 45px 0;/*Margen de 45px superior y 0 inferior*/
+.services-group {/*Div contenedor que tiene 3 contenedores services-1*/
+    display: flex;/*permite las funciones justify-content*/
+    justify-content: space-between;/*espaciado entre los contenedores services-1*/
+    margin: 45px 0;/*margen de 45px superior y 0 inferior*/
 }
-.services-1 {/*cada servicio, tiene una imagen, un título, un párrafo descriptivo y un vínculo*/
-    background-color: #070707;/*Color de fondo de cada contenedor*/
+.services-1 {/*Div contenedor de cada servicio, tiene una imagen, un título, un párrafo descriptivo y un vínculo*/
+    background-color: #070707;/*color de fondo de cada contenedor*/
     padding: 35px 25px;/*espaciado de arriba y abajo de 35px y 25px de izquierda y derecha*/
-    margin: 0 10px;/*Margen superior de 0, inferior de 10px*/
-    border-radius: 15px;/*Redondea el borde*/
+    margin: 0 10px;/*margen superior de 0, inferior de 10px*/
+    border-radius: 15px;/*redondea el borde*/
 }
-.services-1 img {/*imagen del contenedor services-1*/
-    width: 100px;/*Ancho de la imagen*/
-    height: auto;/*Selecciona automáticamente la altura con respecto al ancho*/
-    margin-bottom: 10px;/*Margen inferior de 10px*/ 
+.services-1 img {/*Imagen del div contenedor services-1*/
+    width: 100px;/*ancho de la imagen*/
+    height: auto;/*selecciona automáticamente la altura con respecto al ancho*/
+    margin-bottom: 10px;/*margen inferior de 10px*/ 
 }
-.services-1 h3 {/*Título del contenedor services-1*/
-    font-size: 25px;/*Tamaño del título del contenedor services-1*/
-    color: #ffffff;/*Color del título del contenedor services-1*/
+.services-1 h3 {/*Título del div contenedor services-1*/
+    font-size: 25px;/*tamaño del título del contenedor services-1*/
+    color: #ffffff;/*color del título del contenedor services-1*/
 }
-.services-1 a {/*Botón vínculo del contenedor services-1*/
-    color: #cf2d3a;/*Color del botón del contenedor services-1*/
-    font-size: 16px;/*Tamaño de la fuente del botón*/
+.services-1 a {/*Botón vínculo del div contenedor services-1*/
+    color: #cf2d3a;/*color del botón del contenedor services-1*/
+    font-size: 16px;/*tamaño de la fuente del botón*/
 }
-.prices {/**/
-    display: flex;/**/
+.prices {/*Sección prices, tiene 2 contenedores, prices-1 y prices-2*/
+    display: flex;/*para que sus elementos se muevan según las funciones que proporciona display: flex*/
 }
-.prices-1 {/**/
-    width: 50%;/**/
-    padding: 150px 250px 150px 100px;/**/
-    background-color: #191919;/**/
+.prices-1 {/*Div que tiene un título, un párrafo, un botón y una tabla de precios*/
+    display: flex;/*activé display: flex para usar flex-direction y align-items*/
+    flex-direction: column;/*para que los elementos se alineen por columnas*/
+    align-items: center;/*Para centrar los elementos del div contenedor prices-1*/
+    width: 50%;/*el div contenedor prices-1 tendrá un ancho del 50%*/
+    padding: 150px 250px 150px 100px;/*arriba 150px, derecha 250px, abajo 150px, izquierda 100px*/
+    background-color: #191919;/*color de fondo negro del div contenedor prices-1*/
 }
-table {/**/
-    margin: 50px 0;/**/
-    width: 100%;/**/
-    text-align: left;/**/
-    border-collapse: collapse;/**/
+table {/*Tabla de precios*/
+    margin: 50px 0;/*margen de 50px para arriba y abajo. 0 para izquierda y derecha*/
+    width: 100%;/*ancho del 100% del div contenedor prices-1, descontando el margen y el padding*/
+    text-align: left;/*texto a la izquierda de cada fila*/
+    border-collapse: collapse;/*sin espaciado adicional entre las celdas y el borde de la tabla*/
 }
-tr {/**/
-    display: flex;/**/
-    justify-content: space-between;/**/
-    border-bottom: 1px solid #afafaf;/**/
-    margin-bottom: 20px;/**/
+tr {/*Cada fila de la tabla precios*/
+    display: flex;/*Activa las funciones display: flex*/
+    justify-content: space-between;/*espaciado entre los valores de cada fila*/
+    border-bottom: 1px solid #afafaf;/*borde del margen inferior de cada fila*/
+    margin-bottom: 10px;/*margen inferior de cada fila*/
 }
-th{/**/
-    color: #ffffff;/**/
-    padding-bottom: 15px;/**/
+th {/*Cada corte de la tabla de precios*/
+    color: #ffffff;/*color blanco para la letra*/
+    padding-bottom: 10px;/*espacio entre la parte inferior del margen de cada fila y el elemento*/
 }
-td{/**/
-    color: #cf2d3a;/**/
+td {/*Cada valor de cada corte de la tabla precios*/
+    color: #cf2d3a;/*color rojo para el valor de los cortes*/
+    font-size: large;/*Tamaño un poco más grande para el valor de los precios de los cortes*/
 }
-.prices-2 {/**/
-    background-image: url(images/a2.jpg);/**/
-    background-position: center center;/**/
-    background-repeat: no-repeat;/**/
-    background-size: cover;/**/
-    width: 50%;/**/
+.prices-2 {/*Div contenedor dentro de prices, está vacío para dejar una imagen de fondo allí*/
+    background-image: url(images/a2.jpg);/*imagen a2 de fondo*/
+    background-position: center center;/*posición horizontal y vertical en el centro*/
+    background-repeat: no-repeat;/*para no repetir la imagen*/
+    background-size: cover;/*para que la imagen ocupe todo el fondo*/
+    width: 50%;/*el contenedor prices-2 ocupará el 50% del contenedor prices*/
 }
