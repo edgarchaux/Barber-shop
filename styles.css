@@ -231,72 +231,72 @@ td {/*Cada valor de cada corte de la tabla precios*/
     background-size: cover;/*para que la imagen ocupe todo el fondo*/
     width: 50%;/*el contenedor prices-2 ocupará el 50% del contenedor prices*/
 }
-.personal {
-    padding: 100px 0;
-    text-align: center;
+.personal { /*Sección personal, tiene 2 div container, personal-1 y personal-group */
+    padding: 100px 0;/**/
+    text-align: center;/**/
 }
-.personal-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 25px;
+.personal-txt {/**/
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
+    text-align: center;/**/
+    margin-bottom: 25px;/**/
 }
-.personal-group{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+.personal-group{/**/
+    display: flex;/**/
+    justify-content: space-between;/**/
+    margin-bottom: 15px;/**/
 }
-.personal-1 {
-    text-align: center;
+.personal-1 {/**/
+    text-align: center;/**/
 }
-.personal-1 img {
-    width: 300px;
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 25px;
+.personal-1 img {/**/
+    width: 300px;/**/
+    height: auto;/**/
+    border-radius: 15px;/**/
+    margin-bottom: 25px;/**/
 }
-.personal-1 h3 {
-    font-size: 22px;
+.personal-1 h3 {/**/
+    font-size: 22px;/**/
 }
-.personal-1 p {
-    padding: 0 50px;
+.personal-1 p {/**/
+    padding: 0 50px;/**/
 }
-.personal-1 a {
-    color: #cf2d3a;
+.personal-1 a {/**/
+    color: #cf2d3a;/**/
 }
-.footer-bg {
-    background-image: url(images/bg-2.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
+.footer-bg {/**/
+    background-image: url(images/bg-2.png);/**/
+    background-position: center center;/**/
+    background-repeat: no-repeat;/**/
+    background-size: cover;/**/
+    text-align: center;/**/
+    padding: 100px 0;/**/
 }
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+form {/**/
+    display: flex;/**/
+    flex-direction: column;/**/
+    align-items: center;/**/
 }
-.campo-1 {
-    margin-bottom: 15px;
+.campo-1 {/**/
+    margin-bottom: 15px;/**/
 }
-.campo {
-    margin: 5px;
-    padding: 10px 15px;
-    width: 250px;
-    background-color: #0e0e0e;
-    border: 1px solid #cf2d3a;
-    outline: none;
-    border-radius: 10px;
-    color: #ffffff;
-    font-size: 14px;
+.campo {/**/
+    margin: 5px;/**/
+    padding: 10px 15px;/**/
+    width: 250px;/**/
+    background-color: #0e0e0e;/**/
+    border: 1px solid #cf2d3a;/**/
+    outline: none;/**/
+    border-radius: 10px;/**/
+    color: #ffffff;/**/
+    font-size: 14px;/**/
 }
-textarea {
-    width: 520px !important;
+textarea {/**/
+    width: 520px !important;/**/
 }
-.footer-txt {
-    text-align: center;
-    padding: 10px;
-    background-color: #070707;
+.footer-txt {/**/
+    text-align: center;/**/
+    padding: 10px;/**/
+    background-color: #070707;/**/
 }
