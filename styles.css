@@ -148,77 +148,77 @@ p {/*llama a todos los párrafos*/
 .b1 {/*Primer párrafo del contenedor .welcome*/
     color: #cf2d3a;/*color rojo*/
 }
-.services {
-    padding: 100px 0;
-    text-align: center;
+.services {/*tiene los contenedores services-txt y services-group*/
+    padding: 100px 0;/*espacio superior e inferior de 100px, de izquierda y derecha de 0*/
+    text-align: center;/*centrar texto*/
 }
-.services-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.services-txt {/*tiene un título, una línea y un párrafo*/
+    display: flex;/*permite las funciones flex-direction y align-items*/
+    flex-direction: column;/*alinea los ítems por columna*/
+    align-items: center;/*alinea los ítems en el centro*/
 }
-hr {
-    border: 3px solid #cf2d3a;
-    width: 80px;
+hr {/*línea*/
+    border: 3px solid #cf2d3a;/*aumenta el grosor de la línea, da color rojo*/
+    width: 80px;/*establece el ancho de la línea en 80px*/
 }
-.services-txt p {
-    padding: 50px 150px;
+.services-txt p {/*párrafo del contenedor services-txt*/
+    padding: 50px 150px;/*espacio de arriba y abajo en 50px y de izquierda a derecha de 150px*/
 }
-.services-group {
-    display: flex;
-    justify-content: space-between;
-    margin: 45px 0;
+.services-group {/*Tiene 3 contenedores services-1*/
+    display: flex;/**/
+    justify-content: space-between;/**/
+    margin: 45px 0;/**/
 }
-.services-1 {
-    background-color: #070707;
-    padding: 35px 25px;
-    margin: 0 10px;
-    border-radius: 15px;
+.services-1 {/**/
+    background-color: #070707;/**/
+    padding: 35px 25px;/**/
+    margin: 0 10px;/**/
+    border-radius: 15px;/**/
 }
-.services-1 img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;   
+.services-1 img {/**/
+    width: 100px;/**/
+    height: auto;/**/
+    margin-bottom: 10px;/**/ 
 }
-.services-1 h3 {
-    font-size: 25px;
-    color: #ffffff;
+.services-1 h3 {/**/
+    font-size: 25px;/**/
+    color: #ffffff;/**/
 }
-.services-1 a {
-    color: #cf2d3a;
-    font-size: 16px;
+.services-1 a {/**/
+    color: #cf2d3a;/**/
+    font-size: 16px;/**/
 }
-.prices {
-    display: flex;
+.prices {/**/
+    display: flex;/**/
 }
-.prices-1 {
-    width: 50%;
-    padding: 150px 250px 150px 100px;
-    background-color: #191919;
+.prices-1 {/**/
+    width: 50%;/**/
+    padding: 150px 250px 150px 100px;/**/
+    background-color: #191919;/**/
 }
-table {
-    margin: 50px 0;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
+table {/**/
+    margin: 50px 0;/**/
+    width: 100%;/**/
+    text-align: left;/**/
+    border-collapse: collapse;/**/
 }
-tr {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #afafaf;
-    margin-bottom: 20px;
+tr {/**/
+    display: flex;/**/
+    justify-content: space-between;/**/
+    border-bottom: 1px solid #afafaf;/**/
+    margin-bottom: 20px;/**/
 }
-th{
-    color: #ffffff;
-    padding-bottom: 15px;
+th{/**/
+    color: #ffffff;/**/
+    padding-bottom: 15px;/**/
 }
-td{
-    color: #cf2d3a;
+td{/**/
+    color: #cf2d3a;/**/
 }
-.prices-2 {
-    background-image: url(images/a2.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
+.prices-2 {/**/
+    background-image: url(images/a2.jpg);/**/
+    background-position: center center;/**/
+    background-repeat: no-repeat;/**/
+    background-size: cover;/**/
+    width: 50%;/**/
 }
