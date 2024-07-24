@@ -1,214 +1,212 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!--documento html-->
+<html lang="es">    <!--documento html en español-->
+<head><!--metadatos del documento-->
+    <meta charset="UTF-8"><!--caracteres especiales para documentos en español-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--edge como navegador que abrirá el documento-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--pantalla completa por defecto-->
+    <title>Barber shop</title><!--título del documento en la barra de navegación-->
+    <link rel="stylesheet" href="styles.css"><!--vínculo con archivo de estilos en css-->
+</head><!--fin del header-->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barber shop</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="menu container">
-            <a href="#" class="logo">logo</a>
-            <input type="checkbox" id="menu">
-            <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="">
+<body><!--cuerpo del documento-->
+    <header class="header"><!--etiqueta header se llama con .header-->
+        <div class="menu container"><!--contenedor menu container-->
+            <a href="#" class="logo">logo</a><!--enlace del logo para devolver al menú principal-->
+            <input type="checkbox" id="menu"><!--input de tipo checkbox-->
+            <label for="menu"><!--Asocia el al menú con el input checkbox-->
+                <img src="images/menu.png" class="menu-icono" alt=""><!--Vincula la imagen con el label menú-->
             </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-content container">
-            <div class="header-txt">
-                <h1>Barber shop</h1>
-                <span>Bogotá</span>
-                <p>
+            <nav class="navbar"><!--barra de navegación-->
+                <ul><!--inicio de una lista sin orden-->
+                    <li><a href="#">Inicio</a></li><!--link de inicio-->
+                    <li><a href="#">Servicios</a></li><!--vínculo para llevar a servicios-->
+                    <li><a href="#">Productos</a></li><!--vínculo para llevar a productos-->
+                    <li><a href="#">Contacto</a></li><!--vínculo para llevar a contactos-->
+                </ul><!--fin de la lista sin orden-->
+            </nav><!--fin de la barra de navegación-->
+        </div><!--fin del contenedor menu container-->
+        <div class="header-content container"><!--inicio contenedor header-content container-->
+            <div class="header-txt"><!--inicio contenedor header-txt-->
+                <h1>Barber shop</h1><!--título de la barbería-->
+                <span>Bogotá</span><!--subtítulo-->
+                <p><!--párrafo donde llevará descripción breve del negocio-->
                     Te ofrece un servicio, único, exclusivo, personalizado y profesional corte para caballero, 
                     niño, arreglo de barba, bigote y cejas , limpieza facial, mascarilla negra. Ambiente
                     familiar, BIENVENIDOS
-                </p>
-                <a href="#" class="btn-1">Información</a>
-            </div>
-            <div class="header-dir">
-                <div class="dir">
-                    <h3>Direccion</h3>
-                    <p>Calle 4 # 6-26</p>
-                </div>
-                <div class="dir">
-                    <h3>Telefono</h3>
-                    <p>888-8888</p>
-                </div>
-                <div class="dir">
-                    <h3>Horario de atención</h3>
-                    <p>Lunes a viernes 09:00-18:00</p>
-                    <p>Domingos y festivos 10:00-16:00</p>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="welcome">
-        <div class="welcome-1">
-        </div>
-        <div class="welcome-2">
-            <h2>Welcome to barber shop</h2>
-            <p class="b1">
+                </p><!--fin del párrafo-->
+                <a href="#" class="btn-1">Información</a><!--vínculo para obtener más información-->
+            </div><!--fin del contenedor header-content container-->
+            <div class="header-dir"><!--inicio contenedor header-dir-->
+                <div class="dir"><!--inicio contenedor dir-->
+                    <h3>Direccion</h3><!--título dirección-->
+                    <p>Calle 4 # 6-26</p><!--párrafo con la dirección del local-->
+                </div><!--fin del contenedor header-dir-->
+                <div class="dir"><!--Inicio contenedor dir-->
+                    <h3>Telefono</h3><!--título con teléfono-->
+                    <p>888-8888</p><!--número de teléfono de contacto-->
+                </div><!--fin del contenedor dir-->
+                <div class="dir"><!--otro contenedor dir-->
+                    <h3>Horario de atención</h3><!--título horario de atención-->
+                    <p>Lunes a viernes 09:00-18:00</p><!--Horario entre semana-->
+                    <p>Domingos y festivos 10:00-16:00</p><!--Horario fines de semana-->
+                </div><!--fin del contacto dir-->
+            </div><!--Fin del contenedor header-dir-->
+        </div><!--fin del contacto header-content container-->
+    </header><!--fin del header-->
+    <section class="welcome"><!--inicio sección welcome-->
+        <div class="welcome-1"><!--contenedor welcome-1 vacío, va a tener una imagen de fondo-->
+        </div><!--fin del contenedor welcome-1-->
+        <div class="welcome-2"><!--inicio del contenedor welcome-2-->
+            <h2>Welcome to barber shop</h2><!--Título de bienvenida-->
+            <p class="b1"><!--párrafo b1-->
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut, quia eius amet autem error!
                 Doloremque, quibusdam a vero asperiores qui sequi commodi placeat veritatis blanditiis suscipit
-                voluptatem dolorum maxime?
-            </p>
-            <p>
+                voluptatem dolorum maxime?<!--lorem debe ir una breve descripción de la barbería-->
+            </p><!--cierre del párrafo b1-->
+            <p><!--Inicia otro párrafo-->
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, autem id aut rem reprehenderit
                 architecto fuga repellendus quo et error sapiente dignissimos. Tenetur accusamus perferendis doloremque
                 inventore voluptate quos consectetur.
-            </p>
-            <a href="#" class="btn-1">Información</a>
-        </div>
-    </section>
-    <main class="services container">
-        <div class="services-txt">
-            <h2>Nuestros servicios</h2>
-            <hr>
-            <p>
+            </p><!--finaliza otro párrafo-->
+            <a href="#" class="btn-1">Información</a><!--botón de Información-->
+        </div><!--finaliza el contenedor welcome-2-->
+    </section><!--finaliza la sección welcome-->
+    <main class="services container"><!--Inicia la sección principal-->
+        <div class="services-txt"><!--Inicia el contenedor services-txt-->
+            <h2>Nuestros servicios</h2><!--título de Nuestros servicios-->
+            <hr><!--línea-->
+            <p><!--Inicia párrafo-->
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum hic nam nesciunt quo non eligendi fuga
                 veritatis quod a excepturi. Explicabo corporis officiis harum odio omnis fugit ab quasi excepturi.
-            </p>
-        </div>
-        <div class="servicios group">
-            <div class="servicios-1">
-                <img src="images/i1.svg" alt="">
-                <h3>servicio 1</h3>
-                <p>
+            </p><!--finaliza párrafo-->
+        </div><!--finaliza el contenedor services-txt-->
+        <div class="servicios group"><!--Inicia el contenedor servicios group-->
+            <div class="servicios-1"><!--Inicia el contenedor servicios-1-->
+                <img src="images/i1.svg" alt=""><!--inserta la imagen i1 en el contenedor servicios-1-->
+                <h3>servicio 1</h3><!---->
+                <p><!---->
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum repudiandae nam molestias
                     itaque culpa quae pariatur distinctio dolore minima provident quia odio numquam, non temporibus iste
                     amet tenetur error?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-            <div class="servicios-1">
-                <img src="images/i2.svg" alt="">
-                <h3>servicio 2</h3>
-                <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+            <div class="servicios-1"><!---->
+                <img src="images/i2.svg" alt=""><!---->
+                <h3>servicio 2</h3><!---->
+                <p><!---->
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum repudiandae nam molestias
                     itaque culpa quae pariatur distinctio dolore minima provident quia odio numquam, non temporibus iste
                     amet tenetur error?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-            <div class="servicios-1">
-                <img src="images/i3.svg" alt="">
-                <h3>servicio 3</h3>
-                <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+            <div class="servicios-1"><!---->
+                <img src="images/i3.svg" alt=""><!---->
+                <h3>servicio 3</h3><!---->
+                <p><!---->
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum repudiandae nam molestias
                     itaque culpa quae pariatur distinctio dolore minima provident quia odio numquam, non temporibus iste
                     amet tenetur error?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-        </div>
-        <a href="#" class="btn-1">Información</a>
-    </main>
-    <section class="prices">
-        <div>
-            <h2>Lista de precios</h2>
-            <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+        </div><!---->
+        <a href="#" class="btn-1">Información</a><!---->
+    </main><!---->
+    <section class="prices"><!---->
+        <div><!---->
+            <h2>Lista de precios</h2><!---->
+            <p><!---->
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dignissimos architecto
                 exercitationem, obcaecati aspernatur deleniti corrupti accusantium facilis quae earum nesciunt, suscipit
                 laborum sapiente maiores rem, a error et quis.
-            </p>
-            <table>
-                <tr>
-                    <th>Corte</th>
-                    <th>$180</th>
-                </tr>
-                <tr>
-                    <th>Tinte</th>
-                    <th>$140</th>
-                </tr>
-                <tr>
-                    <th>Domicilio</th>
-                    <th>$220</th>
-                </tr>
-            </table>
-            <a href="#" class="btn-1">Información</a>
-        </div>
-        <div class="prices-2"></div>
-    </section>
-    <section class="personal container">
-        <div class="personal-txt">
-            <h2>Nuestros estilistas</h2>
-            <hr>
-            <p>
+            </p><!---->
+            <table><!---->
+                <tr><!---->
+                    <th>Corte</th><!---->
+                    <th>$180</th><!---->
+                </tr><!---->
+                <tr><!---->
+                    <th>Tinte</th><!---->
+                    <th>$140</th><!---->
+                </tr><!---->
+                <tr><!---->
+                    <th>Domicilio</th><!---->
+                    <th>$220</th><!---->
+                </tr><!---->
+            </table><!---->
+            <a href="#" class="btn-1">Información</a><!---->
+        </div><!---->
+        <div class="prices-2"></div><!---->
+    </section><!---->
+    <section class="personal container"><!---->
+        <div class="personal-txt"><!---->
+            <h2>Nuestros estilistas</h2><!---->
+            <hr><!---->
+            <p><!---->
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id exercitationem veniam deleniti illum, et
                 nulla quis nesciunt dolores magni consequuntur? Fuga culpa non commodi cum iusto molestiae modi sunt
                 maxime.
-            </p>
-        </div>
-        <div class="personal-group">
-            <div class="personal-1">
-                <img src="images/b1.jpg" alt="">
-                <h3>Lorem</h3>
-                <p>
+            </p><!---->
+        </div><!---->
+        <div class="personal-group"><!---->
+            <div class="personal-1"><!---->
+                <img src="images/b1.jpg" alt=""><!---->
+                <h3>Lorem</h3><!---->
+                <p><!---->
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil cupiditate perspiciatis pariatur
                     quisquam, maiores sed. Voluptates expedita voluptatem impedit molestiae? Magni nam repellendus ipsum
                     quis ea est fugiat sint voluptate?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-            <div class="personal-1">
-                <img src="images/b2.jpg" alt="">
-                <h3>Lorem</h3>
-                <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+            <div class="personal-1"><!---->
+                <img src="images/b2.jpg" alt=""><!---->
+                <h3>Lorem</h3><!---->
+                <p><!---->
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil cupiditate perspiciatis pariatur
                     quisquam, maiores sed. Voluptates expedita voluptatem impedit molestiae? Magni nam repellendus ipsum
                     quis ea est fugiat sint voluptate?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-            <div class="personal-1">
-                <img src="images/b3.jpg" alt="">
-                <h3>Lorem</h3>
-                <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+            <div class="personal-1"><!---->
+                <img src="images/b3.jpg" alt=""><!---->
+                <h3>Lorem</h3><!---->
+                <p><!---->
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil cupiditate perspiciatis pariatur
                     quisquam, maiores sed. Voluptates expedita voluptatem impedit molestiae? Magni nam repellendus ipsum
                     quis ea est fugiat sint voluptate?
-                </p>
-                <a href="#">Saber más</a>
-            </div>
-        </div>
-        <a href="#" class="btn-1">Información</a>
-    </section>
-    <footer>
-        <div class="footer-bg">
-            <h2>Reserva una cita</h2>
-            <form>
-                <div class="campo-1">
-                    <input class="campo" type="text" placeholder="Nombre">
-                    <input class="campo" type="number" placeholder="Teléfono">
-                </div>
-                <div class="campo-1">
-                    <input class="campo" type="text" placeholder="Dirección">
-                    <input class="campo" type="email" placeholder="Correo">
-                </div>
-                <textarea class="campo" cols="30" rows="20" placeholder="Texto"></textarea>
-                <input type="submit" value="Enviar" class="btn-1">
-            </form>
-        </div>
-        <div class="footer-txt">
-            <p>
+                </p><!---->
+                <a href="#">Saber más</a><!---->
+            </div><!---->
+        </div><!---->
+        <a href="#" class="btn-1">Información</a><!---->
+    </section><!---->
+    <footer><!---->
+        <div class="footer-bg"><!---->
+            <h2>Reserva una cita</h2><!---->
+            <form><!---->
+                <div class="campo-1"><!---->
+                    <input class="campo" type="text" placeholder="Nombre"><!---->
+                    <input class="campo" type="number" placeholder="Teléfono"><!---->
+                </div><!---->
+                <div class="campo-1"><!---->
+                    <input class="campo" type="text" placeholder="Dirección"><!---->
+                    <input class="campo" type="email" placeholder="Correo"><!---->
+                </div><!---->
+                <textarea class="campo" cols="30" rows="20" placeholder="Texto"></textarea><!---->
+                <input type="submit" value="Enviar" class="btn-1"><!---->
+            </form><!---->
+        </div><!---->
+        <div class="footer-txt"><!---->
+            <p><!---->
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eius asperiores optio, corrupti
                 nam illum architecto aliquam molestias reprehenderit ea nobis quibusdam sed minima? Dolorum,
                 repudiandae! Praesentium ipsa beatae harum.
-            </p>
-        </div>
-    </footer>
-</body>
-
-</html>
+            </p><!---->
+        </div><!---->
+    </footer><!---->
+</body><!---->
+</html><!---->
