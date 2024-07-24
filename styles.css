@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /*se importaron letras de google font*/
 /* font-family: 'Bebas neue', cursiva;*/
-* {/*reset*/
+* { /*reset*/
     margin: 0;/*reset*/
     padding: 0;/*reset*/
     box-sizing: border-box;/*reset*/
     text-decoration: none;/*reset*/
     list-style: none;/*reset*/
 }
-body {/*curpo de la página*/
+body { /*curpo de la página*/
     font-family: 'poppins', sans-serif;/*se usaron la letra poppin importada*/
     background-color: #1f1f1f;/*color del fondo*/
 }
-.container {/*contiene una imagen y el menu*/
+.container { /*contiene una imagen y el menu*/
     max-width: 1200px; /*Máximo de ancho de la página*/
     margin: 0 auto; /*Sin margen*/
 }
