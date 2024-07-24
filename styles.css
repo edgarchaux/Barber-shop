@@ -9,7 +9,7 @@
     text-decoration: none;/*reset*/
     list-style: none;/*reset*/
 }
-body { /*curpo de la página*/
+body { /*cuerpo de la página*/
     font-family: 'poppins', sans-serif;/*se usaron la letra poppin importada*/
     background-color: #1f1f1f;/*color del fondo*/
 }
@@ -26,7 +26,7 @@ body { /*curpo de la página*/
     display: flex;/*el contenedor y sus elementos se podran organizar de forma flexible*/
     align-items: center;/*centra verticalmente la imagen*/
 }
-.menu {
+.menu {/*input*/
     position: absolute;/*el contenedor se posicionará en el borde más cercano*/
     top: 0;/*Posición vertical con respecto a su contenedor*/
     left: 0;/*Posición con respecto al borde izquierdo*/
@@ -36,7 +36,7 @@ body { /*curpo de la página*/
     justify-content: space-between;/* guarda espacio entre los elementos*/
     z-index: 1000;/*El menor se posiciona delante de cualquier elemento*/
 }
-.logo {
+.logo {/*logo de la barbería*/
     font-size: 24px; /* Tamaño de letra*/
     color: #cf2d3a; /*Color de letra*/
     font-weight: 800; /* ancho de la fuente*/
@@ -84,38 +84,38 @@ body { /*curpo de la página*/
 .header-txt p {/*Llama al párrafo del header-txt*/
     color: #AFAFAF;/*color gris para el párrafo*/
     padding: 0 250px;/*espacio superior e inferior de 0 y entre izquierda y derecha de 250px*/
-    margin: 25px 0;/*margen superior de 25px e inferior de 0*/
+    margin: 25px 0;/*margen superior e inferior de 25px y derecho e izquierdo de 0px*/
 }
-.btn-1 {
-    display: inline-block;
-    padding: 11px 25px;
-    background-color: #d82e37;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 20px;
-    font-family: 'Bebas Neue', cursive;
-    margin: 25px 0;
-    border: 0;
+.btn-1 {/*botones*/
+    display: inline-block;/*Permite que se acomode en una línea de texto*/
+    padding: 11px 25px;/*espacio superior e inferior de 11px y derecha e izquierda de 25px*/
+    background-color: #d82e37;/*color del botón*/
+    color: #ffffff;/*color de la letra del botón*/
+    text-transform: uppercase;/*Letra mayúscula*/
+    letter-spacing: 2px;/*espaciado*/
+    font-size: 20px;/*tamaño de letra*/
+    font-family: 'Bebas Neue', cursive;/*fuente de letra*/
+    margin: 25px 0;/*margen superior de 25px e inferior de 0px*/
+    border: 0;/*elemento sin borde*/
 }
-.btn-1:hover {
-    background-color: #b4272e;
+.btn-1:hover {/*animación del elemento*/
+    background-color: #b4272e;/*cambia de color cuando el puntero pasa por encima*/
 }
-.header-dir {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-top: 20px;
+.header-dir {/*tiene 3 contenedores dir*/
+    display: flex;/*permite las funciones justify-content y text-align*/
+    justify-content: space-between;/*da espaciado entre los elementos*/
+    text-align: center;/*centra verticalmente los elementos*/
+    margin-top: 20px;/*margen superior de 20px*/
 }
-.dir h3 {
-    font-size: 18px;
-    margin-top: 10px;
+.dir h3 {/*título h3 del contenedor dir*/
+    font-size: 18px;/*tamaño de letra de 18px*/
+    margin-top: 10px;/*margen superior de 10px*/
 }
-.dir p {
-    font-size: 22px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-top: 10px;
+.dir p {/*párrafo del contenedor dir*/
+    font-size: 22px;/*tamaño de letra*/
+    color: #ffffff;/*color de letra*/
+    text-transform: uppercase;/*mayúscula*/
+    margin-top: 10px;/*margen superior*/
 }
 .welcome { /*tiene 2 divs, welcome-1 y welcome-2*/
     display: flex;/*hace que un contenedor y sus elementos se puedan organizar de forma flexible*/
