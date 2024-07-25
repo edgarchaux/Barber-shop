@@ -300,105 +300,105 @@ textarea {/*Área para dejar comentarios*/
     padding: 10px;/*espaciado de 10px*/
     background-color: #070707;/*fondo de color negro*/
 }
-@media(max-width: 991px){/**/
-    .menu{
-        padding: 20px;
+@media(max-width: 991px){/*Modo para no cambiar los estilos cuando se restaura la pestaña*/
+    .menu{/*Primer div contenedor */
+        padding: 20px;/*espaciado de 20px*/
     }
-    .menu label {
-        display: initial;
+    .menu label {/*Llama al label del div contenedor menu*/
+        display: initial;/*devuelve los valores iniciales de los elementos*/
     }
-    .menu .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #1f1f1f;
-        display: none;
+    .menu .navbar{/*Llama a los div contenedores menu y navbar*/
+        position: absolute;/*posiciona los elementos sin afectar a los demás*/
+        top: 100%;/*desplaza hacia abajo el contenedor*/
+        left: 0;/*borde izquierdo del contenedor alineado con el borde izquierdo del elemento*/
+        right: 0;/*borde derecho del contenedor alineado con el borde derecho del elemento*/
+        background-color: #1f1f1f;/*fondo negro de los div contenedores*/
+        display: none;/*invisibiliza los elementos de la página en el modo resize*/
     }
-    .menu .navbar ul li {
-        width: 100%;
+    .menu .navbar ul li {/*Llama a los div contenedores menu y navbar, así como a la lista que contienen*/
+        width: 100%;/*ancho del 100% del div contenedor*/
     }
-    #menu:checked ~ .navbar {
-        width: initial;
+    #menu:checked ~ .navbar {/*Llama al div contenedor menu, a sus hermanos, a navbar y a sus hermanos*/
+        width: initial;/*ancho inicial*/
     }
-    .header {
-        min-height: 0vh;
+    .header {/*Llama al header*/
+        min-height: 0vh;/*mínima altura de de 0vh*/
     }
-    .header-content {
-        padding: 80px 30px 50px 30px;
+    .header-content {/*Llama al div contenedor header-content*/
+        padding: 80px 30px 50px 30px;/*arriba 80px, derecha 30px, abajo 50px, izquierda 30px*/
     }
-    .header-txt {
-        margin-bottom: 15px;
+    .header-txt {/*Llama al div contenedor header-txt*/
+        margin-bottom: 15px;/*margen inferior de 15px*/
     }
-    .header-txt h1 {
-        font-size: 90px;
+    .header-txt h1 {/*Llama al título del div contenedor header-txt*/
+        font-size: 90px;/*tamaño de letra de 90px*/
     }
-    .header-txt {
-        padding: 0;
-        margin: 15px 0;
+    .header-txt {/*Llama al div contenedor header-txt*/
+        padding: 0;/*sin espaciado*/
+        margin: 15px 0;/*margen superior e inferior de 15px, 0 de izquierda y derecha*/
     }
-    .margin-dir {
-        flex-direction: column;
+    .margin-dir {/**/
+        flex-direction: column;/*alinea verticalmente los elementos*/
     }
-    .dir p {
-        font-size: 18px;
+    .dir p {/*Llama al párrafo del div contenedor dir*/
+        font-size: 18px;/*tamaño de 18px para la letra del párrafo*/
     }
-    .welcome-1 {
-        display: none;
+    .welcome-1 {/*Llama al div contenedor welcome-1*/
+        display: none;/*los elementos del div contenedor welcome-1 desaparecerán si la pestaña es muy pequeña*/
     }
-    .welcome-2{
-        width: 100%;
-        padding: 30px;
-        text-align: center;
+    .welcome-2{/*Llama al div contenedor welcome-2*/
+        width: 100%;/*ancho del 100% del contenedor*/
+        padding: 30px;/*30px de espaciado en todos los lados*/
+        text-align: center;/*centra el texto*/
     }
-    h2 {
-        font-size: 70px;
-        line-height: 80px;
+    h2 {/*Llama a todos los títulos h2 del documento*/
+        font-size: 70px;/*tamaño de letra de 70px para todos los títulos h2*/
+        line-height: 80px;/*altura entre líneas de 80px*/
     }
-    p {
-        margin: 15px 0;
+    p {/*Llama a todos los párrafos del documento*/
+        margin: 15px 0;/*márgenes de 15px de arriba y abajo, 0 de izquierda y derecha*/
     }
-    .services {
-        padding: 30px;
+    .services-container {/*Llama al div contenedor services*/
+        padding: 30px;/*espaciado de 30px en todos los lados*/
     }
-    .services-txt p {
-        padding: 0;
+    .services-txt p {/*Llama al div contenedor services-txt*/
+        padding: 0;/*espaciado de 0 en todos los lados*/
     }
-    .services-group {
-        flex-direction: column;
-        margin: 0;
+    .services-group {/*Llama al div contenedor services-group*/
+        flex-direction: column;/*alinea verticalmente a todos los elementos*/
+        margin: 0;/*margen de 0 a todos lados*/
     }
-    .services-1 {
-        margin: 0 0 20px 0;
+    .services-1 {/*Llama al div contenedor services-1*/
+        margin: 0 0 20px 0;/*arriba 0, derecha 0, abajo 20px, izquierda 0*/
     }
-    .prices {
-        flex-direction: column;
+    .prices {/*Llama al div contenedor prices*/
+        flex-direction: column;/*alinea verticalmente los elementos*/
     }
-    .prices-1 {
-        width: 100%;
-        padding: 30px;
-        text-align: center;
+    .prices-1 {/*Llama al div contenedor prices-1*/
+        width: 100%;/*ancho del 100% del div contenedor*/
+        padding: 30px;/*espaciado de 30px para todos los lados*/
+        text-align: center;/*alinea en el centro el texto*/
     }
-    table {
-        margin: 25px 0 0 0;
+    table {/*Llama a la tabla de precios*/
+        margin: 25px 0 0 0;/*arriba 25px, derecha 0, abajo 0, izquierda 0*/
     }
-    .prices-2 {
-        display: none;
+    .prices-2 {/*Llama al div contenedor prices-2*/
+        display: none;/*el div contenedor prices-2 desaparecerá si la pestaña es muy pequeña*/
     }
-    .personal {
-        padding: 30px;
+    .personal {/*Llama al div contenedor personal*/
+        padding: 30px;/*espaciado de 30px para todos los lados*/
     }
-    .personal-group {
-        flex-direction: column;
-        margin-bottom: 0;
+    .personal-group {/*Llama al div contenedor personal-group*/
+        flex-direction: column;/*alinea verticalmente los ítems del div contenedor personal-group*/
+        margin-bottom: 0;/*margen inferior de 0*/
     }
-    .personal-1 {
-        margin-bottom: 25px;
+    .personal-1 {/*Llama al div contenedor personal-1*/
+        margin-bottom: 25px;/*margen inferior de 25px*/
     }
-    .footer-bg {
-        padding: 30px;
+    .footer-bg {/*Llama al div contenedor footer-bg*/
+        padding: 30px;/*espaciado de 30px para todos los lados*/
     }
-    textarea {
-        width: 250px !important;
+    textarea {/*Llama al área de texto del footer*/
+        width: 250px !important;/*ancho de 250 px da prioridad sobre las opciones del div contenedor padre*/
     }
 }
