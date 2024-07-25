@@ -300,7 +300,7 @@ textarea {/*Área para dejar comentarios*/
     padding: 10px;/*espaciado de 10px*/
     background-color: #070707;/*fondo de color negro*/
 }
-@media(max-width: 991px){
+@media(max-width: 991px){/**/
     .menu{
         padding: 20px;
     }
