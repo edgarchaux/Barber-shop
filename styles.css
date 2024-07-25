@@ -300,3 +300,105 @@ textarea {/*Área para dejar comentarios*/
     padding: 10px;/*espaciado de 10px*/
     background-color: #070707;/*fondo de color negro*/
 }
+@media(max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1f1f1f;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        width: initial;
+    }
+    .header {
+        min-height: 0vh;
+    }
+    .header-content {
+        padding: 80px 30px 50px 30px;
+    }
+    .header-txt {
+        margin-bottom: 15px;
+    }
+    .header-txt h1 {
+        font-size: 90px;
+    }
+    .header-txt {
+        padding: 0;
+        margin: 15px 0;
+    }
+    .margin-dir {
+        flex-direction: column;
+    }
+    .dir p {
+        font-size: 18px;
+    }
+    .welcome-1 {
+        display: none;
+    }
+    .welcome-2{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    p {
+        margin: 15px 0;
+    }
+    .services {
+        padding: 30px;
+    }
+    .services-txt p {
+        padding: 0;
+    }
+    .services-group {
+        flex-direction: column;
+        margin: 0;
+    }
+    .services-1 {
+        margin: 0 0 20px 0;
+    }
+    .prices {
+        flex-direction: column;
+    }
+    .prices-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    table {
+        margin: 25px 0 0 0;
+    }
+    .prices-2 {
+        display: none;
+    }
+    .personal {
+        padding: 30px;
+    }
+    .personal-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .personal-1 {
+        margin-bottom: 25px;
+    }
+    .footer-bg {
+        padding: 30px;
+    }
+    textarea {
+        width: 250px !important;
+    }
+}
