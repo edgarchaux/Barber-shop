@@ -232,68 +232,68 @@ td {/*Cada valor de cada corte de la tabla precios*/
     width: 50%;/*el contenedor prices-2 ocupará el 50% del contenedor prices*/
 }
 .personal { /*Sección personal, tiene 2 div container, personal-1 y personal-group */
-    padding: 100px 0;/**/
-    text-align: center;/**/
+    padding: 100px 0;/*espaciado de arriba y abajo de 100px, de izquierda y derecha de 0*/
+    text-align: center;/*centra el texto*/
 }
-.personal-txt {/**/
-    display: flex;/**/
-    flex-direction: column;/**/
-    align-items: center;/**/
-    text-align: center;/**/
-    margin-bottom: 25px;/**/
+.personal-txt {/*Div container que tiene un título, una línea y un párrafo*/
+    display: flex;/*activa las funciones de display:flex*/
+    flex-direction: column;/*alinea verticalmente los elementos del div container personal-txt*/
+    align-items: center;/*alinea al centro los elementos del div container personal-txt*/
+    text-align: center;/*centra el texto del div container personal-txt*/
+    margin-bottom: 25px;/*margen de abajo de 25px*/
 }
-.personal-group{/**/
-    display: flex;/**/
-    justify-content: space-between;/**/
-    margin-bottom: 15px;/**/
+.personal-group{/*Div container que tiene 3 div container llamados personal-1 y un enlace*/
+    display: flex;/*activa las funciones de display:flex*/
+    justify-content: space-between;/*espaciado entre los elementos*/
+    margin-bottom: 15px;/*margen de abajo de 15px*/
 }
-.personal-1 {/**/
-    text-align: center;/**/
+.personal-1 {/*Div container, tiene una imagen, un título y un párrafo*/
+    text-align: center;/*alinea el texto en el centro*/
 }
-.personal-1 img {/**/
-    width: 300px;/**/
-    height: auto;/**/
-    border-radius: 15px;/**/
-    margin-bottom: 25px;/**/
+.personal-1 img {/*Llama a la imagen del div container personal-1*/
+    width: 300px;/*ancho de 300px de la imagen*/
+    height: auto;/*alto automático para el ancho proporcionado*/
+    border-radius: 15px;/*bordea las esquinas de la imagen*/
+    margin-bottom: 25px;/*margen inferior de 25px*/
 }
-.personal-1 h3 {/**/
-    font-size: 22px;/**/
+.personal-1 h3 {/*Llama al título del div container personal-1*/
+    font-size: 22px;/*tamaño de la fuente de 22px*/
 }
-.personal-1 p {/**/
-    padding: 0 50px;/**/
+.personal-1 p {/*Llama al párrafo del div container personal-1*/
+    padding: 0 50px;/*espaciado de arriba y abajo de 0, de izquierda y derecha de 50px*/
 }
-.personal-1 a {/**/
-    color: #cf2d3a;/**/
+.personal-1 a {/*Llama al enlace del div container personal-1*/
+    color: #cf2d3a;/*color rojo del enlace del div container personal-1*/
 }
-.footer-bg {/**/
-    background-image: url(images/bg-2.png);/**/
-    background-position: center center;/**/
-    background-repeat: no-repeat;/**/
-    background-size: cover;/**/
-    text-align: center;/**/
-    padding: 100px 0;/**/
+.footer-bg {/*Llama al div container footer-bg, tiene un título y un formulario*/
+    background-image: url(images/bg-2.png);/*establece la imagen de fondo bg-2*/
+    background-position: center center;/*centra la imagen de fondo*/
+    background-repeat: no-repeat;/*para que no se repita la imagen de fondo*/
+    background-size: cover;/*para que la imagen de fondo ocupe todo el div container footer-bg*/
+    text-align: center;/*centra el texto*/
+    padding: 100px 0;/*espaciado de arriba y abajo de 100px, de izquierda y derecha de 0*/
 }
-form {/**/
-    display: flex;/**/
-    flex-direction: column;/**/
-    align-items: center;/**/
+form {/*Llama el formulario del div container footer-bg*/
+    display: flex;/*activa las funcioner display:flex*/
+    flex-direction: column;/*acomoda los elementos del form por las columnas*/
+    align-items: center;/*centra los ítems del formulario*/
 }
-.campo-1 {/**/
-    margin-bottom: 15px;/**/
+.campo-1 {/*Div container dentro del formulario*/
+    margin-bottom: 15px;/*espaciado inferior de 15px*/
 }
-.campo {/**/
-    margin: 5px;/**/
-    padding: 10px 15px;/**/
-    width: 250px;/**/
-    background-color: #0e0e0e;/**/
-    border: 1px solid #cf2d3a;/**/
-    outline: none;/**/
-    border-radius: 10px;/**/
-    color: #ffffff;/**/
-    font-size: 14px;/**/
+.campo {/*Llama a los inputs del formulario*/
+    margin: 5px;/*margen de 5px en cada lado*/
+    padding: 10px 15px;/*espaciado de 10px de arriba y abajo, de 15px de izquierda y derecha*/
+    width: 250px;/*ancho de 250px*/
+    background-color: #0e0e0e;/*fondo de color negro*/
+    border: 1px solid #cf2d3a;/*borde de color rojo*/
+    outline: none;/*no añade efecto visual al contorno*/
+    border-radius: 10px;/*redondea los bordes*/
+    color: #ffffff;/*color blanco*/
+    font-size: 14px;/*tamaño de letrade 14px*/
 }
-textarea {/**/
-    width: 520px !important;/**/
+textarea {/*Área para dejar comentarios*/
+    width: 520px !important;/*ancho del text area, la propiedad !important da prioridad a la instrucción*/
 }
 .footer-txt {/**/
     text-align: center;/**/
