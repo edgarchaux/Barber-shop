@@ -295,8 +295,8 @@ form {/*Llama el formulario del div container footer-bg*/
 textarea {/*Área para dejar comentarios*/
     width: 520px !important;/*ancho del text area, la propiedad !important da prioridad a la instrucción*/
 }
-.footer-txt {/**/
-    text-align: center;/**/
-    padding: 10px;/**/
-    background-color: #070707;/**/
+.footer-txt {/*Último párrafo*/
+    text-align: center;/*centra el texto*/
+    padding: 10px;/*espaciado de 10px*/
+    background-color: #070707;/*fondo de color negro*/
 }
