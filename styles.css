@@ -133,7 +133,7 @@ body { /*Cuerpo de la página, abajo del head*/
     background-color: #191919;/*color negro de fondo*/
 }
 h2 {/*Llama a todos los h2 del documento*/
-    text-align: center;
+    text-align: center;/*centra todos los títulos h2*/
     font-size: 90px;/*tamaño de letra*/
     line-height: 100px;/*indica la altura de cada línea de texto*/
     color: #ffffff;/*color blanco para todos los h2*/
@@ -149,9 +149,9 @@ p {/*Llama a todos los párrafos del documento*/
 .b1 {/*Primer párrafo del contenedor .welcome*/
     color: #cf2d3a;/*color rojo*/
 }
-.welcome-boton {
-    display: flex;
-    justify-content: center;
+.welcome-boton {/*Div container del botón del div container welcome-2*/
+    display: flex;/*permite usar justify content*/
+    justify-content: center;/*para centrar el botón*/
 }
 .services-container {/*Seccion main que tiene los div contenedores services-txt y services-group*/
     padding: 100px 0;/*espacio superior e inferior de 100px, de izquierda y derecha de 0*/
